@@ -1,0 +1,171 @@
+.main {
+  max-width: auto;
+}
+.contain {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+}
+.logo_text {
+  margin: 0;
+  font-size: 32px;
+  padding-bottom: 5px;
+  cursor: default;
+  font-family: Dancing Script;
+  background: linear-gradient(160deg, #3a0ca3, #4361ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: 0.8s;
+}
+.navBlock {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+.navText {
+  text-decoration: none;
+  font-family: Comfortaa;
+  font-size: 16px;
+  font-weight: 500;
+  color: #adadad;
+  transition: 0.8s;
+}
+.navText:hover {
+  color: black;
+}
+.btn_notif {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #c4c4c4;
+  font-size: 18px;
+  transition: 0.5s;
+  padding-top: 5px;
+}
+.btn_notif:hover {
+  color: black;
+}
+.akk_contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-around;
+}
+.login_contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  cursor: pointer;
+}
+.login_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4361ee;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 14px;
+  background-color: #f0f0f0;
+  transition: 0.5s;
+  line-height: 30px;
+  cursor: pointer;
+}
+.login_img:hover {
+  color: white;
+  background-color: rgb(104, 104, 104);
+}
+.login_name {
+  font-weight: 500;
+  font-size: 16px;
+  transform: scaleY(1.1);
+  margin: 0;
+  padding-bottom: 2px;
+  color: #c4c4c4;
+  transition: 0.5s;
+}
+.login_name:hover {
+  color: black;
+}
+.darkMode .logo_text {
+  color: white;
+}
+.darkMode .navText {
+  color: white;
+}
+.darkMode .navText:hover {
+  color: #ef233c;
+}
+.block {
+  width: 350px;
+  height: 430px;
+  background-color: white;
+  position: absolute;
+  right: 40px;
+  top: 80px;
+  z-index: 20;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  transition: 0.8s;
+}
+.block_2 {
+  width: 85%;
+  font-size: 14px;
+  opacity: 0.8;
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #e4e4e4;
+  border-radius: 8px;
+  transition: 0.8s;
+}
+.text_1 {
+  width: 80%;
+  font-size: 14px;
+  opacity: 1;
+  padding: 10px 0px;
+  text-align: center;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.8s;
+}
+.text {
+  margin: 0;
+  padding-left: 10px;
+  font-weight: 500;
+  font-family: Raleway;
+  transition: 0.8s;
+}
+.texter {
+  font-weight: 900;
+  opacity: 1;
+  font-family: Raleway;
+  cursor: default;
+}
+.darkMode .block {
+  background-color: #333;
+}
+.darkMode .text {
+  color: white;
+}
+.darkMode .text_1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.darkMode .block_2 {
+  background-color: #583333;
+}

@@ -1,0 +1,246 @@
+.main {
+  max-width: auto;
+  padding-top: 5px;
+}
+.contain {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product_contain {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.laptop_contain {
+  position: relative;
+  width: 25%;
+  height: 50%;
+  border-radius: 16px;
+  background-color: rgb(59, 59, 59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.laptop_contain:hover .laptop_image {
+  transform: scale(1.2);
+}
+.title_contain {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+}
+.text_1 {
+  font-size: 18px;
+  font-family: Outfit;
+  color: white;
+  margin: 0;
+  cursor: default;
+  font-weight: 400;
+}
+.text_2 {
+  font-size: 14px;
+  font-family: Outfit;
+  color: white;
+  cursor: default;
+  font-weight: 600;
+  margin: 0;
+}
+.text_2_2 {
+  width: 60%;
+  font-size: 14px;
+  font-family: Outfit;
+  color: white;
+  cursor: default;
+  font-weight: 600;
+  margin: 0;
+}
+.btn {
+  width: 40%;
+  border-radius: 32px;
+  border: none;
+  color: white;
+  font-family: Comfortaa;
+  padding: 10px 5px;
+  font-size: 14px;
+  background-color: #ef233c;
+  cursor: pointer;
+}
+.laptop_image {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 120px;
+  height: 120px;
+  transform: scaleX(-1);
+  filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.4));
+  transition: transform 0.5s ease;
+}
+.sount_contain {
+  position: relative;
+  width: 25%;
+  height: 50%;
+  border-radius: 16px;
+  background-color: rgb(248, 226, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.sount_contain:hover .sound_image {
+  transform: scale(1.2);
+}
+.sound_image {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 120px;
+  height: 120px;
+  transform: rotate(325deg);
+  filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.4));
+  transition: transform 0.5s ease;
+}
+.keyboard_image {
+  position: absolute;
+  right: 30px;
+  top: -40px;
+  width: 210px;
+  height: 210px;
+  transform: rotate(25deg);
+  filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.4));
+  transition: transform 0.5s ease;
+}
+.keyboard_contain:hover .keyboard_image {
+  transform: scale(1.2);
+}
+.keyboard_contain {
+  position: relative;
+  width: 45%;
+  height: 50%;
+  border-radius: 16px;
+  background-color: #ef233c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.ps_contain {
+  position: relative;
+  width: 45%;
+  height: 50%;
+  border-radius: 16px;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.ps_contain:hover .ps_image {
+  transform: scale(1.2);
+}
+.oculus_contain {
+  position: relative;
+  width: 25%;
+  height: 50%;
+  border-radius: 16px;
+  background-color: #7ae582;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.oculus_contain:hover .oculus_image {
+  transform: scale(1.2);
+}
+.head_contain {
+  position: relative;
+  width: 25%;
+  height: 50%;
+  border-radius: 16px;
+  background-color: #00a5cf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.ps_image {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 220px;
+  height: 220px;
+  filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.4));
+  transition: transform 0.5s ease;
+}
+.head_image {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 120px;
+  height: 120px;
+  filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.4));
+  transition: transform 0.5s ease;
+}
+.head_contain:hover .head_image {
+  transform: scale(1.2);
+}
+.oculus_image {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 120px;
+  height: 120px;
+  filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.4));
+  transition: transform 0.5s ease;
+}
+.btn_key {
+  width: 20%;
+  border-radius: 32px;
+  border: none;
+  color: #ef233c;
+  font-family: Comfortaa;
+  padding: 10px 5px;
+  font-size: 14px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.btn_head {
+  width: 40%;
+  border-radius: 32px;
+  border: none;
+  color: #ef233c;
+  font-family: Comfortaa;
+  padding: 10px 5px;
+  font-size: 14px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.btn_sound {
+  width: 40%;
+  border-radius: 32px;
+  border: none;
+  color: #ef233c;
+  font-family: Comfortaa;
+  padding: 10px 5px;
+  font-size: 14px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.btn_ps {
+  width: 20%;
+  border-radius: 32px;
+  border: none;
+  color: white;
+  font-family: Comfortaa;
+  padding: 10px 5px;
+  font-size: 14px;
+  background-color: #ef233c;
+  cursor: pointer;
+}

@@ -1,0 +1,114 @@
+.main {
+  max-width: auto;
+  padding-top: 5px;
+}
+.contain {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid black;
+}
+.logo_text {
+  margin: 0;
+  font-size: 32px;
+  padding-bottom: 5px;
+  cursor: default;
+  font-family: Dancing Script;
+  background: linear-gradient(160deg, #3a0ca3, #4361ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text {
+  font-size: 16px;
+  opacity: 0.6;
+  font-family: Outfit;
+  font-weight: 400;
+}
+.icon_contain {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  cursor: default;
+}
+.icon {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.nav_text {
+  font-size: 24px;
+  font-family: Outfit;
+}
+.navBar {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.nav_bar {
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+  font-family: Outfit;
+  margin: 0;
+}
+.darkMode .nav_bar {
+  color: white;
+}
+.darkMode .texter {
+  color: white;
+}
+.darkMode .contact_contain {
+  color: white;
+}
+.darkMode .nav_contain {
+  color: white;
+}
+.info_contain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.texter {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+  font-family: Outfit;
+}
+.nav_contain {
+  width: 30%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.logo_contain {
+  width: 30%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact_contain {
+  width: 30%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.darkMode .logo_text {
+  color: white;
+}
+.darkMode .text {
+  color: white;
+}
+.darkMode .icon {
+  color: white;
+}

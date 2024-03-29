@@ -1,0 +1,45 @@
+.main {
+  max-width: auto;
+}
+.contain {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.method_contain {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.block_contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.icon {
+  font-size: 40px;
+  color: #ef233c;
+  padding-top: 7px;
+}
+.title {
+  font-size: 18px;
+  font-family: Outfit;
+  margin: 0;
+}
+.text {
+  font-size: 14px;
+  font-family: Outfit;
+  margin: 0;
+}
+.darkMode .title {
+  color: white;
+}
+.darkMode .text {
+  color: white;
+}
